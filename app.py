@@ -26,8 +26,8 @@ def find_file(filename):
     # If not found, return the first option and let it fail with clear error
     return possible_paths[0]
 
-model_path = find_file("naive_bayes.pkl")
-data_path = find_file("food_spoilage.csv")
+model_path = "naive_bayes.pkl"
+data_path = "food_spoilage.csv"
 
 # Load model
 try:
